@@ -482,7 +482,8 @@ const SecretArchive: React.FC = () => {
                         <p className="text-sm opacity-60 leading-relaxed italic mb-10 flex-1 font-light">{lang === 'ko' ? lab.intro_ko : lab.intro_en}</p>
                         <div className="pt-6 border-t border-[#00ff41]/10 text-[10px] font-bold group-hover:text-white flex justify-between uppercase">
                           <span>OPEN_DATA</span>
-                          <span>>></span>
+                          <span>&gt;&gt;</span>
+
                         </div>
                       </button>
                     ))}
